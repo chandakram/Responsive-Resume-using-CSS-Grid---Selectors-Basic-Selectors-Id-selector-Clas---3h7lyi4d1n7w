@@ -114,8 +114,16 @@
     height: 4px;
 }
 
+.right-main-content {
+    padding: 2rem 3rem;
+}
+
 .right-section {
-    padding: 2rem 3rem 2rem 3rem;
+    grid-column: span 1 / span 2;
+    font-size: large;
+    font-weight: 500;
+    background-color: azure;
+    color: rgb(0, 102, 133);
 }
 
 .right-title {
